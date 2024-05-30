@@ -4,12 +4,11 @@ import {
   prepareTransaction,
   toWei,
 } from "thirdweb";
-import { avalancheFuji, ethereum } from "thirdweb/chains";
+import { ethereum } from "thirdweb/chains";
 import {
   ConnectButton,
   TransactionButton,
   useActiveAccount,
-  useSendTransaction,
 } from "thirdweb/react";
 
 const client = createThirdwebClient({
